@@ -1,0 +1,264 @@
+html {text-align: right;}
+
+ol { place-items:inherit;
+
+     font-size: 150%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: right;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/*---------*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Sign-Language.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    opacity: 0.9;
+    background-color: white;
+    width: 350px;
+    height: 390px;
+    padding: 20px;
+    margin: 6% auto;
+    border-radius: 20px;
+    position: relative;
+}
+.box2{
+    opacity: 0.9;
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    padding: 20px;
+    margin: 6% auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.form{
+    padding-right: 85px;
+    margin-top: 0px;
+}
+p{
+    padding-top: 10px;
+    color: #36429f;
+}
+
+
+
+h2{
+  text-align: right;
+  font-size: 150%;
+  font-style: oblique;
+  color:#795695 ;
+}
+
+h1 {
+
+  text-align: center;
+  font-size: 300%;
+  font-style: italic;
+  color: #530385;
+  text-shadow: 5px 5px black;
+
+
+}
+
+ li {
+
+     font-style: oblique;
+     font-size: 100%;
+     text-align: right;
+
+
+
+
+  }
+
+  h3 {
+
+    text-align: right;
+    font-size: 150%;
+    font-style: oblique;
+    color:#795695 ;
+
+
+
+  }
+
+  p {
+
+    font-style: oblique;
+    font-size: 150%;
+    text-align: right;
+    color: black;
+
+
+  }
+
+
+.box2 {
+   height: 400px;
+   width: 450px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: #b5e2ff;
+  opacity: 0.9;
+  border-color: #b5e2ff;
+  float: right;
+  margin-right: 7%;
+
+
+
+}
+
+.box1 {
+   height: 400px;
+   width: 450px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: #b5e2ff;
+  opacity: 0.9;
+  border-color: #b5e2ff;
+  float: right;
+
+
+}
+
+ .box3 {
+
+   height: 200px;
+   width: 300px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: #b5e2ff;
+  opacity: 0.9;
+  border-color: #b5e2ff;
+  float: right;
+  margin-bottom: 3%;
+
+
+
+
+
+
+}
+
+h4 {
+
+  text-align: right;
+  font-size: 150%;
+  font-style: oblique;
+  color:#795695 ;
+
+
+}
+
+
+
+.form-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 2px solid #999;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+
+}
+.form-field2{
+    width: 100%;
+    padding: 7px 0;
+    margin: 5px 0;
+    border: 2px solid #999;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #7ed5d4, #36429f);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.submit2{
+    width: 100%;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #7ed5d4, #36429f);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 2px;
+
+}
+
+#a{
+    color: #36429f;
+}
